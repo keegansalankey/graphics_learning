@@ -83,4 +83,5 @@ CMakeFiles/main.dir/main.cpp.o: external/glm-0.9.7.1/glm/vec2.hpp
 CMakeFiles/main.dir/main.cpp.o: external/glm-0.9.7.1/glm/vec3.hpp
 CMakeFiles/main.dir/main.cpp.o: external/glm-0.9.7.1/glm/vec4.hpp
 CMakeFiles/main.dir/main.cpp.o: external/glm-0.9.7.1/glm/vector_relational.hpp
+CMakeFiles/main.dir/main.cpp.o: src/shader.h
 
