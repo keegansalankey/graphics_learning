@@ -40,12 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/keegan/graphics/my_project/external/glfw-3.1.2/cmake_install.cmake")
-  include("/home/keegan/graphics/my_project/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
-  include("/home/keegan/graphics/my_project/external/assimp-3.0.1270/code/cmake_install.cmake")
-  include("/home/keegan/graphics/my_project/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
-  include("/home/keegan/graphics/my_project/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
-  include("/home/keegan/graphics/my_project/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
-  include("/home/keegan/graphics/my_project/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
 
 endif()
 
