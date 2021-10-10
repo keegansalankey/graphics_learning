@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/keegan/graphics/my_project/main.cpp" "/home/keegan/graphics/my_project/CMakeFiles/main.dir/main.cpp.o"
+  "/home/keegan/graphics/my_project/src/shader.cpp" "/home/keegan/graphics/my_project/CMakeFiles/main.dir/src/shader.cpp.o"
+  "/home/keegan/graphics/my_project/src/stb_image.cpp" "/home/keegan/graphics/my_project/CMakeFiles/main.dir/src/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,6 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external/glm-0.9.7.1"
   "external/glew-1.13.0/include"
   "."
+  "includes"
   )
 
 # Targets to which this target links.

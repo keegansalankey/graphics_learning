@@ -12,6 +12,7 @@ include_directories(
 	external/glm-0.9.7.1/
 	external/glew-1.13.0/include/
 	.
+  includes/
 )
 
 set(ALL_LIBS
@@ -19,6 +20,9 @@ set(ALL_LIBS
 	glfw
 	GLEW_1130
 )
+
+file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
+file(GLOB INC_FILES ${PROJECT_SOURCE_DIR}/includes/*.h)
 
 add_definitions(
 	-DTW_STATIC
@@ -30,6 +34,8 @@ add_definitions(
 
 add_executable(main 
 	main.cpp
+  ${SRC_FILES}
+  ${INC_FILES}
 )
 target_link_libraries(main
 	${ALL_LIBS}
