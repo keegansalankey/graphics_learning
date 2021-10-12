@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named basic
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+basic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 basic
+.PHONY : basic
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+basic/fast:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/build
+.PHONY : basic/fast
 
 #=============================================================================
 # Target rules for targets named GLEW_1130
@@ -507,32 +507,59 @@ tearing/fast:
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/tearing.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/tearing.dir/build
 .PHONY : tearing/fast
 
-main.o: main.cpp.o
+basics/main.o: basics/main.cpp.o
 
-.PHONY : main.o
+.PHONY : basics/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+basics/main.cpp.o:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/basics/main.cpp.o
+.PHONY : basics/main.cpp.o
 
-main.i: main.cpp.i
+basics/main.i: basics/main.cpp.i
 
-.PHONY : main.i
+.PHONY : basics/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+basics/main.cpp.i:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/basics/main.cpp.i
+.PHONY : basics/main.cpp.i
 
-main.s: main.cpp.s
+basics/main.s: basics/main.cpp.s
 
-.PHONY : main.s
+.PHONY : basics/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+basics/main.cpp.s:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/basics/main.cpp.s
+.PHONY : basics/main.cpp.s
+
+src/camera.o: src/camera.cpp.o
+
+.PHONY : src/camera.o
+
+# target to build an object file
+src/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/camera.cpp.o
+.PHONY : src/camera.cpp.o
+
+src/camera.i: src/camera.cpp.i
+
+.PHONY : src/camera.i
+
+# target to preprocess a source file
+src/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/camera.cpp.i
+.PHONY : src/camera.cpp.i
+
+src/camera.s: src/camera.cpp.s
+
+.PHONY : src/camera.s
+
+# target to generate assembly for a file
+src/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/camera.cpp.s
+.PHONY : src/camera.cpp.s
 
 src/shader.o: src/shader.cpp.o
 
@@ -540,7 +567,7 @@ src/shader.o: src/shader.cpp.o
 
 # target to build an object file
 src/shader.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shader.cpp.o
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/shader.cpp.o
 .PHONY : src/shader.cpp.o
 
 src/shader.i: src/shader.cpp.i
@@ -549,7 +576,7 @@ src/shader.i: src/shader.cpp.i
 
 # target to preprocess a source file
 src/shader.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shader.cpp.i
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/shader.cpp.i
 .PHONY : src/shader.cpp.i
 
 src/shader.s: src/shader.cpp.s
@@ -558,7 +585,7 @@ src/shader.s: src/shader.cpp.s
 
 # target to generate assembly for a file
 src/shader.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shader.cpp.s
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/shader.cpp.s
 .PHONY : src/shader.cpp.s
 
 src/stb_image.o: src/stb_image.cpp.o
@@ -567,7 +594,7 @@ src/stb_image.o: src/stb_image.cpp.o
 
 # target to build an object file
 src/stb_image.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/stb_image.cpp.o
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
 
 src/stb_image.i: src/stb_image.cpp.i
@@ -576,7 +603,7 @@ src/stb_image.i: src/stb_image.cpp.i
 
 # target to preprocess a source file
 src/stb_image.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
 
 src/stb_image.s: src/stb_image.cpp.s
@@ -585,7 +612,7 @@ src/stb_image.s: src/stb_image.cpp.s
 
 # target to generate assembly for a file
 src/stb_image.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles/basic.dir/build.make CMakeFiles/basic.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
 # Help Target
@@ -600,7 +627,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main"
+	@echo "... basic"
 	@echo "... GLEW_1130"
 	@echo "... uninstall"
 	@echo "... glfw"
@@ -627,9 +654,12 @@ help:
 	@echo "... cursor"
 	@echo "... empty"
 	@echo "... tearing"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... basics/main.o"
+	@echo "... basics/main.i"
+	@echo "... basics/main.s"
+	@echo "... src/camera.o"
+	@echo "... src/camera.i"
+	@echo "... src/camera.s"
 	@echo "... src/shader.o"
 	@echo "... src/shader.i"
 	@echo "... src/shader.s"

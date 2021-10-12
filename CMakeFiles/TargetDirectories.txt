@@ -4,7 +4,7 @@
 /home/keegan/graphics/my_project/CMakeFiles/list_install_components.dir
 /home/keegan/graphics/my_project/CMakeFiles/rebuild_cache.dir
 /home/keegan/graphics/my_project/CMakeFiles/edit_cache.dir
-/home/keegan/graphics/my_project/CMakeFiles/main.dir
+/home/keegan/graphics/my_project/CMakeFiles/basic.dir
 /home/keegan/graphics/my_project/external/CMakeFiles/install/strip.dir
 /home/keegan/graphics/my_project/external/CMakeFiles/install/local.dir
 /home/keegan/graphics/my_project/external/CMakeFiles/install.dir

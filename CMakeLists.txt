@@ -32,11 +32,14 @@ add_definitions(
 	-D_CRT_SECURE_NO_WARNINGS
 )
 
-add_executable(main 
-	main.cpp
+add_executable(basic 
+	basics/main.cpp
   ${SRC_FILES}
   ${INC_FILES}
 )
-target_link_libraries(main
+
+set_target_properties(basic PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/basics")
+
+target_link_libraries(basic
 	${ALL_LIBS}
 )
