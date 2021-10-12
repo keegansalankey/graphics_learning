@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/keegan/graphics/my_project",
+  "command": "/usr/bin/c++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/keegan/graphics/my_project/external/glfw-3.1.2/include -I/home/keegan/graphics/my_project/external/glm-0.9.7.1 -I/home/keegan/graphics/my_project/external/glew-1.13.0/include -I/home/keegan/graphics/my_project/. -I/home/keegan/graphics/my_project/includes    -o CMakeFiles/basic.dir/basics/main.cpp.o -c /home/keegan/graphics/my_project/basics/main.cpp",
+  "file": "/home/keegan/graphics/my_project/basics/main.cpp"
+},
+{
+  "directory": "/home/keegan/graphics/my_project",
+  "command": "/usr/bin/c++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/keegan/graphics/my_project/external/glfw-3.1.2/include -I/home/keegan/graphics/my_project/external/glm-0.9.7.1 -I/home/keegan/graphics/my_project/external/glew-1.13.0/include -I/home/keegan/graphics/my_project/. -I/home/keegan/graphics/my_project/includes    -o CMakeFiles/basic.dir/src/camera.cpp.o -c /home/keegan/graphics/my_project/src/camera.cpp",
+  "file": "/home/keegan/graphics/my_project/src/camera.cpp"
+},
+{
+  "directory": "/home/keegan/graphics/my_project",
+  "command": "/usr/bin/c++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/keegan/graphics/my_project/external/glfw-3.1.2/include -I/home/keegan/graphics/my_project/external/glm-0.9.7.1 -I/home/keegan/graphics/my_project/external/glew-1.13.0/include -I/home/keegan/graphics/my_project/. -I/home/keegan/graphics/my_project/includes    -o CMakeFiles/basic.dir/src/shader.cpp.o -c /home/keegan/graphics/my_project/src/shader.cpp",
+  "file": "/home/keegan/graphics/my_project/src/shader.cpp"
+},
+{
+  "directory": "/home/keegan/graphics/my_project",
+  "command": "/usr/bin/c++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/keegan/graphics/my_project/external/glfw-3.1.2/include -I/home/keegan/graphics/my_project/external/glm-0.9.7.1 -I/home/keegan/graphics/my_project/external/glew-1.13.0/include -I/home/keegan/graphics/my_project/. -I/home/keegan/graphics/my_project/includes    -o CMakeFiles/basic.dir/src/stb_image.cpp.o -c /home/keegan/graphics/my_project/src/stb_image.cpp",
+  "file": "/home/keegan/graphics/my_project/src/stb_image.cpp"
+}
+]
