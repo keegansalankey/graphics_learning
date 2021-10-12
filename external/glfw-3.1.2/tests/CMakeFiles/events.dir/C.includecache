@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/keegan/graphics/my_project/external/glfw-3.1.2/deps/getopt.c
-getopt.h
-/home/keegan/graphics/my_project/external/glfw-3.1.2/deps/getopt.h
-stddef.h
--
-string.h
--
-
-/home/keegan/graphics/my_project/external/glfw-3.1.2/deps/getopt.h
-
 /home/keegan/graphics/my_project/external/glfw-3.1.2/tests/events.c
 GLFW/glfw3.h
 -

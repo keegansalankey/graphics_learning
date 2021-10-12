@@ -6,34 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/keegan/graphics/my_project/external/glfw-3.1.2/deps/tinycthread.c
-tinycthread.h
-/home/keegan/graphics/my_project/external/glfw-3.1.2/deps/tinycthread.h
-stdlib.h
--
-signal.h
--
-sched.h
--
-unistd.h
--
-sys/time.h
--
-errno.h
--
-process.h
--
-sys/timeb.h
--
-
-/home/keegan/graphics/my_project/external/glfw-3.1.2/deps/tinycthread.h
-time.h
--
-pthread.h
--
-windows.h
--
-
 /home/keegan/graphics/my_project/external/glfw-3.1.2/tests/empty.c
 tinycthread.h
 /home/keegan/graphics/my_project/external/glfw-3.1.2/tests/tinycthread.h
