@@ -84,8 +84,6 @@ int main( void ){
   // intitialize shader
   Shader ourShader = Shader("basics/shaders/shader.vs", "basics/shaders/shader.fs");
 
-  // Include standard headers
-
   float vertices[] = {
     -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
