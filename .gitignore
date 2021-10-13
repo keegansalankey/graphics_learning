@@ -6,7 +6,7 @@
 *.user
 *.sln.docstates
 *.swp
-./cache/
+.cache/
 
 # Build results
 
